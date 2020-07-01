@@ -1,17 +1,26 @@
-### Atelier-Auto
+# Atelier-Auto
 
 Proiect POO - An II
 
 ## Cerință
 
-# Precizări generale
+## Precizări generale
 
-    1.	Puteți folosi STL si ce considerați ca e nevoie însă pentru temele care presupun structuri de date, folosirea STL pentru exact structura de date din cerință ar evita scopul temei.
-    2.	Cele mai multe cerințe sunt parțiale, lăsând la latitudinea voastră cum alegeți anumite elemente concrete pentru a ilustra cat mai bine competentele voastre de OOP.
-    3.	In cazul in care o cerință este neclara si nu reușiți sa o clarificați singuri, spuneți pe grup, sau discutam la laborator
+    1.	Puteți folosi STL si ce considerați ca e nevoie însă pentru temele care presupun structuri de date, 
+        folosirea STL pentru exact structura de date din cerință ar evita scopul temei.
+        
+    2.	Cele mai multe cerințe sunt parțiale, lăsând la latitudinea voastră cum alegeți
+        anumite elemente concrete pentru a ilustra cat mai bine competentele voastre de OOP.
+        
+    3.	In cazul in care o cerință este neclara si nu reușiți sa o clarificați singuri, 
+        spuneți pe grup, sau discutam la laborator
+        
     4.	1p in plus pentru folosirea de templateuri
+    
     5.	1p in plus pentru un design pattern implementat
-    6.	Încercați sa utilizați cat mai multe cunoștințe de POO pe care le-ați dobândit până acum si încercați sa implementați totul cum trebuie (cu constructori de copiere, operator=, alocare dinamica, fără memory leakuri, etc)
+    
+    6.	Încercați sa utilizați cat mai multe cunoștințe de POO pe care le-ați dobândit până acum și încercați
+        sa implementați totul cum trebuie (cu constructori de copiere, operator=, alocare dinamica, fără memory leakuri, etc)
     
 # Atelier auto: 
 
