@@ -50,5 +50,48 @@ Proiect POO - An II
 
     5.	Vehiculul odată conectat la tester (in atelier) se va putea autodiagnostica verificând fiecare componenta a sa si returnând lista de probleme.
 
+## Prezentare:
 
+ Pentru exemplu vom alege in meniul principal un Automobil din clasa A ( de lux ).
+    
+    <img src="Images/AA-Meniu.PNG">
+    
+ Ne sunt disponibile urmatoarele operatiuni de traumatizare:
+    
+    <img src="Images/AA-AplicareTraume.PNG">
+    
+ A se puncta ca unele operatiuni au rezultatul ales aleator cum ar fi : alegerea placuțelor care se uzează sau cât de tare se stramba o piesa din caroserie.
+    
+ Pentru exemplul nostru am uzat placutele de frână , consumat uleiul , uzat discurile de pe fata. De asemenea am avariat automobilul:
+        
+    <img src="Images/AA-AvariereCaroserie.PNG">
+    <img src="Images/AA-AvariereCaroserie2.PNG">
+    
+ Prin corodarea capotei si lovirea mai multor părți din caroserie.
+    
+ Prin introducerea autovehiculului la tester obținem următoarele rezultate:
+    
+    <img src="Images/AA-RezultateTester.PNG">
+    
+ Ne sunt furnizate:
+    
+    1. Problemele depistate
+    2. Materialele necesare reparatiei: fiecare procedura necesita un anumit numar de suruburi,
+    unele necesita materiale.
+    3. Procedurile de reparare a vehiculului si numarul de ore necesar aplicarii lor.
+    4. Costurile totale. In cazul de fata , pentru un automobil de lux a fost folosită următoarea
+    formulă: Total = costuri * (2.15) + ore_muncă * (50) 
+ 
+  A se nota: Valoarea costuri este calculata pe baza prețului inițial al fiecarei piese înmulțită cu o pondere ( diferită în funcție de tipul vehiculului ) , orele
+de muncă sunt calculate pe baza procedurilor aplicate si înmulțite cu preț/h ( de asemenea și prețul mâinii de lucru diferă în funcție de tipul vechiculului ).        
+    
+## Îmbunătățiri posibile:
 
+  1. Adăugarea unei interfețe grafice.
+  
+  2. Creșterea complexității (exemple):
+  
+         * Să se ia în calcul firma si modelul vehiculului. ( Piesele devin aferente pe model; eg: Disc spate Mercedes AMG GT)
+         * Să se țină o evidență a pieselor în depozitul atelierului (disponibile sau nu); -> implică adăugarea unui meniu pentru inserarea pieselor în depozit/stoc.
+         * Adaugarea a noi probleme posibile (si procedurile de reparație aferente , eg: Bujie stricată , Tobă spartă ... )
+     
